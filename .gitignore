@@ -1,0 +1,40 @@
+# Build directory
+builddir/
+
+# Object files
+*.o
+*.a
+*.so
+*.lo
+
+# Meson build files
+meson-private/
+meson-info/
+
+# Generated resources
+*-resources.c
+*-resources.h
+
+# Build ident header
+*-build-ident.h
+
+# Subprojects (external repos)
+subprojects/fmt/
+subprojects/simdutf/
+
+# Editor files
+*~
+*.swp
+*.swo
+*#
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Patches
+*.patch
